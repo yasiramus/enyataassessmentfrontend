@@ -1,0 +1,183 @@
+/* google fonts dm sans  */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* css reset  */
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* remove the scrolling bar  */
+::-webkit-scrollbar{
+
+    display: none;
+
+}
+
+body {
+
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+/* header styling  */
+header {
+
+    background-color:#029F58;
+    height: 70.4rem;
+    background-image: url(../Images/nosehead.png);
+    background-blend-mode: overlay;
+}
+
+/* nav bar section contains both the logo and url  */
+nav {
+
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 1rem;
+    align-items: center;
+
+}
+
+/* logo section */
+.logo img {
+
+    margin-left: 5rem;
+
+}
+
+/* navbars links section  */
+.navbars{
+
+    list-style: none;
+    display: flex;
+    column-gap: 3rem;
+
+}
+
+nav ul li a {
+
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.6%;
+    color: #FFFFFF;
+    text-decoration: none;
+
+} 
+
+/* content section */
+.mainContent {
+
+    text-align: center;
+    margin: 5rem 0 0;
+    color: #FFFFFF;
+
+}
+
+#header-content h1 {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 94.6%;
+    letter-spacing: -0.06em;
+
+}
+
+.mainContent .sub-content {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    opacity: 0.9;
+    margin: 2rem 0;
+
+}
+
+.download-section {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 2rem 0;
+
+} 
+
+/* .download-section > div {
+
+    background-color: #000000;
+    padding: 1rem;
+    border-radius: 4px;
+
+} */
+
+.header-images {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 5rem 0 0;
+}
+
+.header-images img {
+
+    width: 50%;
+    position: relative;
+
+}
+
+.header-images img:nth-of-type(1){
+
+    left: 24rem;
+
+}
+
+.header-images img:nth-of-type(2){
+
+    z-index: 1;
+    top: -4.5rem;
+
+}
+
+.header-images img:nth-of-type(3){
+
+    right: 20.5rem;
+}
+
+section {
+
+    background-image: url(../Images/noise.png);
+    /* position: relative; */
+    /* z-index: 10; */
+}
+
+#first-section {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* margin: auto; */
+}
+
+#first-section img:nth-of-type(1) {
+
+    margin: 4rem;
+
+}
+
+#first-section .second-logo-img{
+
+    z-index: 0; 
+    padding-left: 9rem;
+    margin-left: 5px;
+    width: 90%;
+
+}
