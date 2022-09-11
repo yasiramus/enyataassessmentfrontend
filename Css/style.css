@@ -312,11 +312,12 @@ nav ul li a {
 /* second section styling  ends*/
 
 /* third section styling  */
-/* .thirdsection {
+.thirdsection {
 
-    height: 35rem;
+    /* height: 35rem; */
+    filter: drop-shadow(0px -15px 40px rgba(0, 0, 0, 0.15));
 
-} */
+}
 
 #third-section {
 
@@ -549,6 +550,12 @@ nav ul li a {
 }
 
 /* fouth section  */
+.fouthsection {
+
+    height: 36.2rem;
+
+}
+
 #fouth-section {
 
     width: 80%;
@@ -559,9 +566,186 @@ nav ul li a {
 
 }
 
+.fouth-right img {
+
+    height: 90%;
+
+}
+
+.fouth-left {
+
+    margin-top: 5rem;
+
+}
+
+.fouth-left h5 {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 116.6%;
+    letter-spacing: -0.03em;
+    color: #000000;
+    background: #FF8C62;
+    border-radius: 50px;
+    padding: 0.5rem;
+    width: 25%;
+    text-align: center;
+
+}
+
+.fouth-left h3 {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #121212;
+    width: 80%;
+    margin: 2rem 0;
+
+}
+
+.fouth-left p {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #121212;
+    opacity: 0.6;
+    width: 85%;
+
+}
+
+/* fifth section styling  */
 .fifthsection {
 
     filter: drop-shadow(0px -15px 40px rgba(0, 0, 0, 0.2));
-    height: 50rem;
-    background-image: url(../Images/noise.png);
+
 }
+
+#fifth-section {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 34rem;
+
+}
+
+.fifth-left {
+
+    background-image: url(../Images/noise1.png);
+    background-color: #272727;
+    /* padding: 8rem 0; */
+    position: relative;
+
+}
+
+.fifth-container {
+
+    position: absolute;
+    width: 65%;
+    height: 85%;
+    left: 7rem;
+    border-left: 10px solid #2E2E2E;
+    border-right: 10px solid #2E2E2E;
+    border-bottom: 10px solid #2E2E2E;
+    filter: drop-shadow(0px 10px 20px rgba(4, 4, 4, 0.2));
+    border-radius: 0px 0px 20px 20px;
+    
+}
+
+.fifth-container .container {
+
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 50%;
+    background: #363636;
+    border-radius: 11px;
+
+}
+.fifth-container .container .flex-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    column-gap: 0.6rem;
+    padding: 2rem 0;
+
+}
+
+.fifth-container .container .flex-image h5 {
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+.fifth-container .container .flex-image h5 span {
+
+    font-size: 15px;
+    opacity: .6;
+    font-weight: 100;
+
+}
+
+.fifth-container .container .btn  {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.fifth-container .container .btn button {
+
+    border: none;
+    padding: .5rem 3rem;
+
+}
+
+.fifth-container .container .btn button:nth-of-type(1) {
+
+    background-color: #E34D4D;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+
+}
+
+.fifth-container .container .btn button:nth-of-type(2) {
+
+   
+    background-color: #029C56;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+
+}
+
+.fifth-right {
+    
+    background-image: url(../Images/noise1.png);
+    background-color: #202020;
+
+}
+
