@@ -1,0 +1,59 @@
+/* firt section stylying  */
+.firstSection{
+
+    background-image: url(../Images/noise.png);
+    position: relative;
+    height: 35rem;
+ 
+}
+
+#first-section {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+#first-section img:nth-of-type(1) {
+
+    margin: 4rem;
+
+}
+
+#first-section .second-logo-img{
+
+    z-index: 5; 
+    padding-left: 8rem;
+    margin-left: 10px;
+    width: 90%;
+
+}
+
+.text2 {
+
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: #007640;
+    padding-left: 5rem;
+    position: absolute;
+    top: 9.8rem;
+    left: 3.5%;
+
+}
+
+.firstSection p {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height:30px;
+    color: #000000;
+    opacity: 0.6;
+    margin-left: 8rem;
+    width: 50%;
+    margin-top: -1rem;
+
+}

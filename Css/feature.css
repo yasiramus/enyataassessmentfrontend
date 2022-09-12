@@ -1,0 +1,188 @@
+.Features {
+
+    background-color: #FFFFFF;
+    margin-bottom: 6rem;
+
+}
+
+#features-section {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.Features-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    column-gap: 5rem;
+    height: 55rem;
+
+}
+
+.left-Features h2 {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 101.1%;
+    letter-spacing: -0.03em;
+    color: #007640;
+    margin: 2rem 0;
+
+}
+
+.main-text-features {
+
+    display: flex;
+    margin-left: 3rem;
+    margin-top: 5rem;
+
+}
+
+.text-Features {
+
+    margin-left: 1rem;
+
+}
+
+.text-Features .words {
+
+    width: 150%;
+    padding-bottom: 5rem;
+
+}
+
+.text-Features .words h5 {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 116.6%;
+    letter-spacing: -0.03em;
+    color: #121212;
+
+}
+
+.text-Features .words .first-text{
+
+    margin-top: -7px;
+
+}
+
+.text-Features .words p {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #121212;
+    opacity: 0.6;
+    padding-top: 1rem;
+
+}
+
+.right-Features {
+
+    margin-left: -3rem;
+
+}
+
+.right-Features img {
+
+    /* height: 90%; */
+    margin-right: 1rem;
+}
+
+/* outer feature styling  */
+.outer-features {
+
+    background-color: #029F58;
+    border-radius: 100px;
+    z-index: 10;
+    position: relative;
+    background-image: url(../Images/nosehead.png);
+    /* height: 500px; */
+    /* padding: 2rem; */
+
+}
+
+.outer {
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 4rem;
+    width: 90%;
+    margin: auto;
+    padding-top: 5rem;
+
+}
+
+.left-outer-features {
+
+    margin-top: 1rem;
+    margin-bottom: -5px;
+    margin-left: 25px;
+    position: relative;
+
+}
+
+.left-outer-features .handpic {
+
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.left-outer-features .textpic{
+
+    position: absolute;
+    width: 144px;
+    height: 260px;
+    left: 143px;
+    top: 8%;
+
+}
+
+.right-outer-features h3 {
+
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 102.6%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin: 3rem 0;
+}
+
+.right-outer-features  .spans {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: .7;
+
+}
+
+.right-outer-features .download-section {
+
+    justify-content:flex-start;
+
+}
+
+.right-outer-features .download-section .playstore {
+
+    width: 50%;
+
+}
+
+.right-outer-features .download-section .appstore {
+
+    width: 40%;
+
+}
