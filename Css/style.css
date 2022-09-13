@@ -196,7 +196,8 @@ nav ul li a:hover {
 
 } 
 
-  @media(max-width:1200px) {
+/* ----------media queries ------------- */
+  @media only screen and(max-width:1200px) {
     
     nav {
 
@@ -228,7 +229,11 @@ nav ul li a:hover {
     
 }
 
-@media (max-width: 768px) {
+/* ----------media queries ------------- */
+/* @media (max-width: 768px) { */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
 
     /* header {
 
