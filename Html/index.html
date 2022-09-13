@@ -559,6 +559,12 @@
     
     <script>
 
+//sticky navbar scrolling 
+window.addEventListener('scroll', function () {
+  var header = document.querySelector('nav');
+  header.classList.toggle('sticky', window.scrollY > 0)
+})
+
         // hamburger js 
         const hamburger = document.querySelector(".hamburger");
 
@@ -582,6 +588,6 @@
         }))
 
     </script>
-    
+
 </body>
 </html>

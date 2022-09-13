@@ -51,7 +51,6 @@
     /* the nav-menu is the same as the navbars  */
     .nav-menu {
 
-        margin-top: 5px;
         position: fixed;
         left: -100%;
         top: 70px;
@@ -64,6 +63,7 @@
         text-align: center;
         transition: .3s;
         z-index: 1000;
+        padding-bottom: 2rem;
 
     }
 
@@ -81,3 +81,4 @@
     }
     
 }
+
