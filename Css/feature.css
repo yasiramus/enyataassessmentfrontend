@@ -214,6 +214,7 @@
     .text-Features .words {
 
         width: 100%;
+        padding-bottom: 6rem;
     }
 
     .text-Features .words h5 {
@@ -223,7 +224,7 @@
     .text-Features .words p {
         
         font-size: 18px;
-        width: 50%;
+        /* width: 50%; */
 
     }
 
