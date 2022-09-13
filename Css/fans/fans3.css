@@ -16,7 +16,7 @@
 
     background-color:#039352;
     padding: 6rem 0 3rem;
-    background-image: url(../Images/noise.png);
+    background-image: url(../../Images/noise.png);
 
 }
 
@@ -83,7 +83,7 @@
 
 .third-section-right-row {
 
-    background-image: url(../Images/noise.png);
+    background-image: url(../../Images/noise.png);
     background-color: #F0F0E6;;
 
 }
@@ -227,4 +227,68 @@
     transform: rotate(357deg);
     margin-right: 15px;
 
+}
+
+@media (max-width: 768px) {
+
+    #third-section {
+
+        grid-template-columns:1fr;
+    
+    }
+
+    .third-section-left-row h3 {
+
+        font-size: 48px;
+        padding: 2.5rem 0;
+        
+    }       
+
+    .third-section-left-row p {
+
+        font-size: 18px;
+        padding:0 0 2.5rem ;
+        
+    }    
+
+    .profile {
+
+        width: 100%;
+
+    }
+
+    .chat-section div:nth-of-type(2) {
+
+        width: 70%;
+     
+    }
+
+    .profile-text p {
+
+        font-size: 16px;
+
+    }
+
+    .profile-time {
+        
+        left: 13rem;
+    }
+
+    .send-message  {
+
+        width: 100%;
+
+    }
+
+    .message-area {
+       
+        width: 340px;
+     
+    }
+
+    .message-area p {
+       
+        font-size: 16px;;
+     
+    }
 }

@@ -186,3 +186,16 @@
     width: 40%;
 
 }
+
+@media (max-width: 768px) {
+    .Features-container {
+
+        grid-template-columns: 1fr;
+       
+    }
+
+    .Features-container {
+       
+        height: auto;
+    }
+}

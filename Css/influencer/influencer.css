@@ -14,7 +14,7 @@
 
 .fifth-left {
 
-    background-image: url(../Images/noise1.png);
+    background-image: url(../../Images/noise1.png);
     background-color: #272727;
     position: relative;
 
@@ -112,7 +112,7 @@
 
 .fifth-right {
     
-    background-image: url(../Images/noise1.png);
+    background-image: url(../../Images/noise1.png);
     background-color: #202020;
     padding: 6rem;
 
@@ -162,3 +162,35 @@
     opacity: 0.6;
 
 }
+
+@media (max-width: 768px) {
+
+    #fifth-section {
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    
+    }
+
+    .fifth-right  {
+
+        padding: 5rem;
+    }
+    .fifth-right h3 {
+
+        font-size: 47px;
+        margin: 2rem 0;
+    }
+
+    .fifth-right p {
+        
+        font-size: 17px;
+      
+    }
+
+    .fifth-container {
+      
+        left: 5.5rem;
+       
+    }
+}    

@@ -1,0 +1,44 @@
+nav .openMenu  {
+
+    font-size: 2rem;
+    margin-top: 40px;
+    display: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.6s;
+    
+} 
+
+.navbars .closeMenu {
+
+  display: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  position: absolute;
+  top: 35px;
+  transition: all 0.6s;
+
+}
+  
+@media (max-width: 768px) {
+
+  nav .openMenu {
+
+    right: 80px;
+    display: block;
+    margin-top: 0;
+
+  }
+
+  .navbars .closeMenu {
+
+    display: block;
+    right: 60px;
+    margin-top: 0;
+
+  }
+
+} 

@@ -38,6 +38,7 @@ header {
     height: 76rem;
     background-image: url(../Images/nosehead.png);
     background-blend-mode: overlay;
+    
 }
 
 /* nav bar section contains both the logo and url  */
@@ -54,6 +55,7 @@ nav {
 .logo img {
 
     margin-left: 3rem;
+    z-index: 1000;
 
 }
 
@@ -167,3 +169,83 @@ nav ul li a {
     top: 19px;
 
 }
+
+@media (max-width: 768px) {
+
+    header {
+
+        height: 46.1rem;
+
+    }
+
+    .navbars {
+      position: fixed;
+      margin: 0;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 20;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s;
+      background-color: #06b868;
+      height: 450px;
+      column-gap: 0;
+      row-gap: 1rem;
+  
+    }
+  
+    nav ul li a {
+  
+      font-size: 18px;
+      line-height: 100%;
+  
+    }
+  
+    .download-section img:nth-of-type(1)  {
+
+        width: 32%;
+    
+    }
+    
+    .download-section img:nth-of-type(2)  {
+    
+        width: 25%;
+    
+    }
+    #header-content h1 {
+
+        font-size: 50px;
+
+    }
+
+    .header-images {
+
+        width: fit-content;
+    
+    }
+
+    .header-images img:nth-of-type(1){
+
+        left: 12.5rem;
+        top: -32px;
+    
+    }
+    
+    .header-images img:nth-of-type(3){
+    
+        right: 10.5rem;
+        top: -35px;
+    
+    }
+
+  } 
+
+  /* @media (min-width: 496px) {
+
+    header {
+
+        height: auto;
+
+    } */

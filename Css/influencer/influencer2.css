@@ -70,3 +70,35 @@
     width: 85%;
 
 }
+
+@media (max-width: 768px) {
+
+    .fouthsection {
+
+        height:auto;
+    
+    }
+
+    #fouth-section{
+
+        grid-template-columns:1fr;
+    
+    }
+
+    .fouth-left h3 {
+
+        font-size: 50px;
+    }
+
+    .fouth-left {
+
+       margin: 2rem 0 4rem;
+
+    }
+
+    .fouth-left p{
+
+        font-size: 17px;
+        
+    }
+}

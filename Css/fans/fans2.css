@@ -73,3 +73,32 @@
 }
 
 /* second section styling  ends*/
+
+@media (max-width: 768px) {
+
+    #second-section {
+
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+
+    }
+
+    .left-row h3 {
+
+        font-size: 48px;
+        margin: 2rem 0;
+
+    }    
+
+    .left-row p {
+
+        font-size: 18px;
+        
+    }    
+
+    .right-row {
+      
+        margin: auto;
+    }
+
+}
