@@ -278,7 +278,7 @@
 
 }
 
-@media (min-width:600px) {
+/* @media (min-width:600px) { */
     
     /* .left-outer-features .textpic {
         height: 276px;
@@ -288,10 +288,10 @@
     } */
 
 
-    .left-outer-features .textpic {
+    /* .left-outer-features .textpic {
         height: 312px;
         left: 175px;
         top: 8.5%;
         width: 176px;
     }
-}
+} */
