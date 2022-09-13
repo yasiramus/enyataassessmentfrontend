@@ -1,0 +1,83 @@
+.hamburger {
+
+    display: none;
+    cursor: pointer;
+    margin-right: 3rem;
+    align-items: center;
+
+}
+
+.bar {
+
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: #fff;
+
+}
+
+@media(max-width:768px) {
+    
+    .hamburger {
+
+        display: block;
+
+    }
+
+    /* the active class will be activated using javaScript*/
+    .hamburger.active .bar:nth-child(2) {
+
+        opacity: 0;
+
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+
+        /* stacking 2 properities on top of each other  */
+        transform: translateY(8px) rotate(45deg);
+
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+
+        /* stacking 2 properities on top of each other  */
+        transform: translateY(-8px) rotate(-45deg);
+
+    }
+
+    /* the nav-menu is the same as the navbars  */
+    .nav-menu {
+
+        margin-top: 5px;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #029F58;
+        background-image: url(../Images/nosehead.png);
+        background-blend-mode: overlay;
+        width: 100%;
+        text-align: center;
+        transition: .3s;
+        z-index: 1000;
+
+    }
+
+    /* nav-item are the nav-list  */
+    .nav-item {
+
+        margin: 16px 0;
+
+    }
+
+    .nav-menu.active {
+
+        left: 0;
+
+    }
+    
+}

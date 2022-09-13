@@ -136,11 +136,15 @@ footer {
     text-decoration: none;
 
   }
+  a {
+    transition: all 0.25s ease;
+
+  }
   
-   a:focus,
-  a:hover {
+   footer a:focus,
+  footer a:hover {
 
     text-decoration: underline;
     text-underline-position: under;
-    transition: all 0.25s ease-out
+    
   }

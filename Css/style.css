@@ -44,10 +44,14 @@ header {
 /* nav bar section contains both the logo and url  */
 nav {
 
-    display: grid;
-    grid-template-columns:1fr 1fr;
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr;*/
     padding: 2rem;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    /* padding: 0 24px; */
 
 }
 
@@ -55,7 +59,6 @@ nav {
 .logo img {
 
     margin-left: 3rem;
-    z-index: 1000;
 
 }
 
@@ -65,11 +68,15 @@ nav {
     list-style: none;
     display: flex;
     column-gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3rem;
 
 }
 
 nav ul li a {
 
+    transition: all 0.25s ease;
     font-family: 'DM Sans';
     font-weight: 500;
     font-size: 20px;
@@ -78,6 +85,11 @@ nav ul li a {
     text-decoration: none;
 
 } 
+
+nav ul li a:hover {
+
+    opacity: .7;
+}    
 
 /* content section */
 .mainContent {
@@ -176,24 +188,6 @@ nav ul li a {
 
         height: 46.1rem;
 
-    }
-
-    .navbars {
-      position: fixed;
-      margin: 0;
-      top: 0;
-      right: 0;
-      left: 0;
-      z-index: 20;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      transition: all 0.5s;
-      background-color: #06b868;
-      height: 450px;
-      column-gap: 0;
-      row-gap: 1rem;
-  
     }
   
     nav ul li a {
